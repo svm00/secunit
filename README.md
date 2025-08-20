@@ -51,16 +51,15 @@
 
 ## Screenshots
 
- <img src="assets/chat.jpg" alt="SecUnit Logo" width="128"/> <img src="assets/profile.jpg" alt="profile" width="128"/>
+ <img src="assets/chat.jpg" alt="chat" width="128"/> <img src="assets/profile.jpg" alt="profile" width="128"/>
 <img src="assets/resourses.jpg" alt="resources" width="128"/>
 
 ```
 assets/
-└── screenshots/
-    ├── home_light.png
-    ├── home_dark.png
-    ├── chatbot.png
-    └── contacts.png
+    ├── secunitlogo.png
+    ├── chat.jpg
+    ├── profile.jpg
+    └── resourses.jpg
 ```
 
 ---

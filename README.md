@@ -51,9 +51,8 @@
 
 ## Screenshots
 
- <img src="assets/chat.jpg" alt="SecUnit Logo" width="128"/>
-  <img src="assets/profile.jpg" alt="profile" width="128"/>
-   <img src="assets/resources.jpg" alt="resources" width="128"/>
+ <img src="assets/chat.jpg" alt="SecUnit Logo" width="128"/><img src="assets/profile.jpg" alt="profile" width="128"/>
+<img src="assets/resources.jpg" alt="resources" width="128"/>
 
 ```
 assets/

@@ -33,8 +33,6 @@ Official Flutter installation guide
 
 Installation & Setup
 
-Clone the repository
-
 git clone https://github.com/svm00/secunit.git
 cd secunit
 

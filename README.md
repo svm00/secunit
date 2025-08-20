@@ -1,7 +1,7 @@
 <!-- LOGO -->
 
 <p align="center">
-  <img src="assets/logo/secunitlogo.png" alt="SecUnit Logo" width="128"/>
+  <img src="assets/secunitlogo.png" alt="SecUnit Logo" width="128"/>
 </p>
 
 <h1 align="center">SecUnit: Campus Safety App</h1>
@@ -51,7 +51,9 @@
 
 ## Screenshots
 
-
+ <img src="assets/chat.jpg" alt="SecUnit Logo" width="128"/>
+  <img src="assets/profile.jpg" alt="profile" width="128"/>
+   <img src="assets/resources.jpg" alt="resources" width="128"/>
 
 ```
 assets/

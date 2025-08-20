@@ -1,79 +1,90 @@
-SecUnit: Campus Safety App
-<!-- Replace with the direct URL to your new logo -->
+<!-- LOGO -->
 
-SecUnit is a comprehensive Flutter-based mobile application designed to enhance personal safety for students on a university campus. It combines essential security features with a user-friendly interface to create an all-in-one campus companion.
+<p align="center">
+  <img src="assets/logo/secunit-logo.png" alt="SecUnit Logo" width="128"/>
+</p>
 
-✨ Features
+<h1 align="center">SecUnit: Campus Safety App</h1>
 
-SecUnit is packed with tools to keep you safe and informed:
+<p align="center">
+  A comprehensive Flutter mobile app that enhances personal safety for students on university campuses.
+</p>
 
-🤖 AI Safety Chatbot
-Get instant answers to safety-related questions. The chatbot responds to keywords like "SOS", "escort", "report", "unsafe", and more, providing immediate guidance.
+<p align="center">
+  <a href="#getting-started">Getting Started</a> •
+  <a href="#features">Features</a> •
+  <a href="#architecture">Architecture</a> •
+  <a href="#configuration--permissions">Configuration & Permissions</a> •
+  <a href="#contributing">Contributing</a>
+</p>
 
-👤 User Profiles
-Create a personal profile with your name, student ID, profile picture, and an emergency contact number.
+<p align="center">
+  <img alt="Flutter" src="https://img.shields.io/badge/Flutter-%3E%3D3.0-blue"/>
+  <img alt="Platforms" src="https://img.shields.io/badge/Platforms-Android%20%7C%20iOS-success"/>
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-lightgrey"/>
+</p>
 
-🆘 Emergency Contacts
-Maintain a dedicated list of emergency contacts who can be quickly reached in urgent situations.
+---
 
-📚 Safety Resources
-Access a curated list of important campus resources, including security, health services, and counseling contacts.
+## Overview
 
-🎨 Professional UI with Dark Mode
-Enjoy a clean, modern, and intuitive interface with both light and dark themes for comfortable viewing in any lighting condition.
+**SecUnit** is a Flutter-based campus safety companion. It combines essential security tools with a clean, modern UI (supporting light and dark themes) to help students stay safe, informed, and connected during routine and urgent situations.
 
-🚀 Getting Started
+---
 
-Follow these steps to get a local copy up and running.
+## Features
 
-Prerequisites
+* 🤖 **AI Safety Chatbot**: Instantly answers safety-related questions. Recognizes keywords such as `SOS`, `escort`, `report`, `unsafe`, and more to provide guidance.
+* 👤 **User Profiles**: Store your name, student ID, profile picture, and an emergency contact number.
+* 🆘 **Emergency Contacts**: Maintain a quick-dial list for urgent situations.
+* 📚 **Safety Resources**: Curated campus resources—security, health services, counseling, and key phone numbers.
+* 🎨 **Professional UI + Dark Mode**: Clean, modern interface with light/dark themes.
 
-Flutter SDK installed on your machine.
-Official Flutter installation guide
+> **Planned (Roadmap)**
+>
+> * 🔔 Push notifications for campus alerts
+> * 🗺️ Campus map with safe routes & escorts
+> * 📍 Optional live location share to trusted contacts
+> * 🧠 On-device intent detection for offline guidance
+> * 🧪 In-app incident reporting with photo attachments
 
-Installation & Setup
+---
 
-git clone https://github.com/svm00/secunit.git
-cd secunit
+## Screenshots
 
+> *Add screenshots or screen recordings once available.*
 
-Install dependencies
+```
+assets/
+└── screenshots/
+    ├── home_light.png
+    ├── home_dark.png
+    ├── chatbot.png
+    └── contacts.png
+```
 
-flutter pub get
+---
 
+## Tech Stack & Key Packages
 
-Generate App Icons (Optional)
-If you updated the app icon at assets/icon/icon.png:
+* **Flutter** (>= 3.x)
+* **State Management**: `provider` – theme toggling and simple app state
+* **Local Storage**: `shared_preferences` – profile data, settings, emergency contacts
+* **Media**: `image_picker` – profile photos from gallery/camera
+* **Dev Tooling**: `flutter_launcher_icons` – generate platform launcher icons
 
-flutter pub run flutter_launcher_icons:main
+<details>
+  <summary><strong>Example pubspec.yaml excerpt</strong></summary>
 
+```yaml
+dependencies:
+  flutter: { sdk: flutter }
+  provider: ^6.0.0
+  shared_preferences: ^2.2.0
+  image_picker: ^1.0.0
 
-Run the Application
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
 
-flutter run
-
-📦 Key Packages Used
-
-provider – State management, especially for toggling between light and dark themes.
-
-shared_preferences – Persist user profile data, settings, and emergency contacts locally.
-
-image_picker – Pick images from the device gallery for profile photos.
-
-flutter_launcher_icons – Generate launcher icons for multiple platforms.
-
-🤝 Contributing
-
-Contributions are what make the open-source community amazing. Any help is greatly appreciated!
-
-Fork the repository
-
-Create your feature branch: git checkout -b feature/YourFeature
-
-Commit your changes: git commit -m 'Add some feature'
-
-Push to the branch: git push origin feature/YourFeature
-
-Open a pull request
-
-You can also open an issue with the enhancement tag if you have ideas or suggestions.
+flutter_icons:
+```

@@ -1,7 +1,7 @@
 <!-- LOGO -->
 
 <p align="center">
-  <img src="assets/logo/secunit-logo.png" alt="SecUnit Logo" width="128"/>
+  <img src="assets/logo/secunitlogo.png" alt="SecUnit Logo" width="128"/>
 </p>
 
 <h1 align="center">SecUnit: Campus Safety App</h1>
@@ -21,7 +21,6 @@
 <p align="center">
   <img alt="Flutter" src="https://img.shields.io/badge/Flutter-%3E%3D3.0-blue"/>
   <img alt="Platforms" src="https://img.shields.io/badge/Platforms-Android%20%7C%20iOS-success"/>
-  <img alt="License" src="https://img.shields.io/badge/License-MIT-lightgrey"/>
 </p>
 
 ---
@@ -52,7 +51,7 @@
 
 ## Screenshots
 
-> *Add screenshots or screen recordings once available.*
+
 
 ```
 assets/
